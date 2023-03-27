@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+body{
+    background-color: hsl(0%, 0%, 95%);
+   font-family: 'Lexend Deca',
+        sans-serif;
+    font-weight: 400;
+}
+.sedan{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(31, 77%, 52%);
+    padding:3rem 0px 3em 0px;
+    border-radius: 5px;
+}
+.suvs{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+background-color: hsl(184, 100%, 22%);
+padding:3rem 0px 3em 0px;
+border-radius: 5px;
+}
+.luxury{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(179, 100%, 13%);
+    padding:3rem 0px 3em 0px;
+    border-radius: 5px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:4em 1em 4em 1em;
+    
+}
+button{
+    height: 50px;
+    width:150px;
+    border-radius: 25px;
+    margin:2em 0px 0px 2em;
+   
+}
+h2{
+    padding-left: 1em;
+    font-size: 50px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display',
+    cursive;
+text-transform: uppercase;
+
+}
+ p{
+    padding:2px 0px 0px 2em;
+    Font size: 15px;
+    line-height:2;
+   color: hsla(0, 0%, 100%, 0.75)
+}
+    
+
+.sbut{
+    color:hsl(31, 77%, 52%);
+    border:2px solid #fff;
+}
+.ubut{
+    color:hsl(184, 100%, 22%);
+    border:2px solid #fff;
+}
+.lbut{
+    color: hsl(179, 100%, 13%);
+    border:2px solid #fff;
+}
+.sbut:hover{
+    color:#fff;
+    background-color:hsl(31, 77%, 52%) ;
+}
+.ubut:hover{
+    color:#fff;
+    background-color:hsl(184, 100%, 22%) ;
+}
+.lbut:hover{
+    color:#fff;
+    background-color:  hsl(179, 100%, 13%);
+}
+img{
+    width:min-content;
+    height: min-content;
+}
+.suv{
+    padding-left: 2em;
+}
+.sed{
+    padding-left: 2em;
+}
+.lux{
+    padding-left: 2em;
+}
+@media(min-width:400px){
+    .container{
+        max-width: 960px;
+        display: flex;
+        flex-direction: row;
+        margin:100px  auto;
+
+    }
+}
